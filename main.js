@@ -33,7 +33,7 @@ loader.load('./model/gaysexfinal.gltf', (gltf) => {
   camera.zoom = 1 / (maxSize / 2);
   camera.updateProjectionMatrix();
 
-  const light = new THREE.DirectionalLight(0xffffff, 1);
+  const light = new THREE.DirectionalLight(0xffaaff, 2.5);
   light.position.set(0, 1, 1);
   scene.add(light);
 
@@ -41,7 +41,7 @@ loader.load('./model/gaysexfinal.gltf', (gltf) => {
     requestAnimationFrame(animate);
 
     gltf.scene.rotation.z += 0.01;
-    gltf.scene.rotation.x = THREE.MathUtils.degToRad(87);
+    gltf.scene.rotation.x = THREE.MathUtils.degToRad(88);
     camera.lookAt(gltf.scene.position);
     renderer.render(scene, camera);
   }
