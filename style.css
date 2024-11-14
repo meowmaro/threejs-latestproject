@@ -16,6 +16,10 @@ body{
     outline: none;
   }
 
+  iframe {
+    left: 0;
+  }
+
 .headerContainer{
     background-color: rgb(57, 40, 74) ;
     border-radius: 25px;
@@ -162,20 +166,20 @@ body{
     text-align: center;
     align-items: center;
     max-width: 50%;
-    
-    
 }
+
 .gameContent{
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 30px;
+    margin: 1px;
     justify-content: center;
     color: white;
     flex-wrap: nowrap;
     text-align: center;
      
 }
+
 .game{
     display: flex;
     justify-content: center;

@@ -48,5 +48,7 @@ loader.load('./model/gaysexfinal.gltf', (gltf) => {
     renderer.render(scene, camera);
   }
 
+  
+
   animate();
 });
