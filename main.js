@@ -39,8 +39,10 @@ loader.load('./model/gaysexfinal.gltf', (gltf) => {
 
   function animate() {
     requestAnimationFrame(animate);
-
-    gltf.scene.rotation.z += 0.01;
+  
+    const shakeAmount = 2;
+    const shakeSpeed = 0.004;
+    gltf.scene.position.x = Math.sin(Date.now() * shakeSpeed) * shakeAmount;
     gltf.scene.rotation.x = THREE.MathUtils.degToRad(88);
     camera.lookAt(gltf.scene.position);
     renderer.render(scene, camera);
