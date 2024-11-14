@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap");
+
+body{
+    background-color: rgb(43, 26, 59);
+    font-family: "Host Grotesk", sans-serif;
+    overflow-x: hidden;
+}
+
+#myDiv canvas{
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+.headerContainer{
+    background-color: rgb(57, 40, 74) ;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
+    height: 14vh;
+}
+#logo2{
+    top: 0px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    width: 80px;
+    transform: translate(-50%);
+}
+ .box2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+}
+.box1{
+    width: 10%;
+    padding: 40px;
+    color: white;
+}
+.box3{
+    padding: 40px;
+}
+
+.profIco{
+    display: flex;
+    justify-content: flex-end;
+}
+.box2{
+
+    width: 80%;
+}
+.box3{
+    width: 10%;
+    color: white;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    position: relative;
+}
+#menuIco{
+    scale: 1.5;
+    cursor: pointer;
+}
+#profileIco{
+    scale: 1.5;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 40, 74);
+    width: 20%;
+    color: white;
+    border-radius: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(700px);
+    transition: 0.5s ease;
+}
+.openProfile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 40, 74);
+    width: 20%;
+    color: white;
+    border-radius: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transform: translateX(0);
+    transition: 0.5s ease;
+}
+
+.sideNav{
+    color: white;
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(57, 40, 74) ;    
+    border-radius: 25px;
+    text-align: center;
+    transform: translateX(-600px);
+    transition: 0.5s ease;
+}
+.open{
+    color: white;
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(57, 40, 74) ;    
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transform: translateX(0);
+    transition: 0.5s ease;
+  
+}
+#gamepadIco{
+    scale: 2;
+}
+.gameCard{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(80, 43, 108);
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    text-align: center;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.gameCard:hover{
+    scale: 1.1;
+    transition: 0.3s ease;
+    border: 1px solid rgb(139, 85, 181);
+}
+.gameimg{
+    width: 40%;
+    min-width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.gameInfo{
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+    
+    
+}
+.gameContent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+    justify-content: center;
+    color: white;
+    flex-wrap: nowrap;
+    text-align: center;
+     
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: black;
+    border: 2px solid rgb(80, 43, 108);
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5);
+}
+
+.beneathContainer{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    width: 20%;
+}
+.div3{
+    width: 20%;
+
+}
+.gameAbout{
+    display: flex;
+    color: white;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#googleBtn{
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    max-width: 200px;
+    background-color: rgb(80, 43, 108);
+    border: 0;
+    color: white;
+    transition: 0.3s ease;
+}
+#googleBtn:hover{
+    border: 1px solid rgb(146, 91, 189);
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+#facebookBtn{
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    max-width: 200px;
+    background-color: rgb(80, 43, 108);
+    border: 0;
+    color: white;
+    transition: 0.3s ease;
+}
+#facebookBtn:hover{
+    border: 1px solid rgb(146, 91, 189);
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+
+.footer{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgb(57, 40, 74);
+}
+.footer1, .footer2, .footer3, .footer4, .footer5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: flex-start;
+    width: 20%;
+    margin: 10px;
+    height: 20vh;
+}
+.footer1{
+    justify-content: center;
+    border: 0;
+}
+.footer2{
+    border: 0;
+    gap: 20px;
+    align-items: flex-start;
+    
+}
+.footer3{
+    width: 30%;
+    border: 0;
+    align-items: flex-start;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+.insta{
+    cursor: pointer;
+}
+
